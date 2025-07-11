@@ -50,7 +50,7 @@ main {
         font-size: 30px;
     }
 
-    button{
+    .sign-up-btn{
         width: 110px;
         height: 45px;
         background-color: #4E47FF;
@@ -68,13 +68,22 @@ main {
         margin-top: 250px;
         font-weight: bold;
         font-size: 30px;
+       
     }
 
     .hero-button{
+        width: 110px;
+        height: 45px;
         margin-top: 25px;
         margin-left: 270px;
         width: 170px;
         font-size: 15px;
+        color: #ffffff;
+        background-color: #4E47FF;
+        border-radius: 8px;
+        border-style: none;
+        font-weight: bold;
+        margin-right: 270px;
     }
 
     /* main styles */
@@ -211,12 +220,75 @@ main {
     }
 
     .reviewer-date{
-         color:rgba(37, 36, 50, 0.5);
+         color: rgba(37, 36, 50, 0.5);
     }
 
-    
+    /* User form styles */
 
-    
-    
+    .form-section{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .invitation-title{
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: 200px;
+    }
+
+    .input-box{
+      margin-right: 10px;
+    }
+
+     .form-box input {
+        width: 497px;
+        height: 60px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 15px;
+        border-style: none;
+        box-shadow:  rgba(37, 36, 50, 0.5);
+        border-color: #D6DDED;
+     }
+
+     .form-box label{
+        font-size: 18px;
+        font-weight: 500;
+        color: #000000;
+     }
+
+     .form-box ::placeholder {
+        font-size: 20px;
+        font-weight: 400;
+     }
+
+     .form-box textarea{
+        width: 500px;
+        height: 120px;
+        border-style: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 15px;
+     }
+
+     textarea::placeholder{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+
+     .submit-button{
+        background-color: #4E47FF;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 15px;
+        width: 520px;
+        height: 65px;
+        border-radius: 10px;
+        border-style: none;
+        margin-top: 15px;
+     }
+
+   
     
